@@ -37,11 +37,5 @@ a {
     margin: 0 auto;
     max-width: 1220px;
     height: 100%;
+    position: relative;
 }   
-
-.prt {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-}

@@ -1,8 +1,6 @@
 .header {
     height: 134px;
     background: #edf2ec;
-    display: flex;
-    justify-content: space-between;
 }
 
 .header__logo {

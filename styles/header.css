@@ -1,0 +1,36 @@
+.header {
+    height: 134px;
+    background: #edf2ec;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    width: 79px;
+    height: 21px;  
+}
+
+.header__conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav {
+    width: 452px;
+    height: 50px;
+}
+
+.header__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    gap: 46px;
+    list-style: none;
+    color: #010201;
+}
+
+.header__links li a:hover {
+    color: #e06733;
+}

@@ -1,0 +1,65 @@
+.footer__conteiner {
+    height: 130px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__disc {
+    width: 182px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer__year {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 250%;
+    color: #000;
+}
+.footer__copy {
+    width: 19px;
+    height: 50px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 250%;
+    color: #000;
+}
+
+.footer__github {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 250%;
+    color: #000;
+}
+
+.footer__social {
+    width: 188px;
+    height: 50px;
+    display: flex;
+    gap: 23px;
+    cursor: pointer;
+}
+
+.footer__insta:hover {
+    stroke: blue ;
+}
+
+.footer__facebook:hover {
+    stroke: blue;
+}
+ 
+.footer__twitter:hover {
+    stroke: blue;
+}
+
+.footer__pintrest:hover {
+    stroke: blue;
+}

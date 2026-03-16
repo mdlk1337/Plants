@@ -1,0 +1,43 @@
+.about__conteiner {
+    background: #fff;
+    padding-top: 93px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about__description {
+    width: 605px;
+    height: 350px;
+}
+
+.selectedText {
+    color: #E06733;
+}
+
+.about__heading {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 40px;
+    color: #499a18;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    max-width: 463px;
+    max-height: 102px;
+}
+
+.about__text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #636060;
+    max-width: 605px;
+    max-height: 208px;
+    margin: 0;
+}
+
+.about__plants {
+    width: 464px;
+    height: 479px;
+}

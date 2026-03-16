@@ -1,0 +1,114 @@
+.contact {
+    background: #edf2ec;
+}
+
+.contact__conteiner {
+    background: #edf2ec;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact__img {
+    width: 400px;
+    height: 496px;
+}
+
+.contact__disc {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 40px;
+    color: #499a18;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.content__head {
+    width: 450px;
+    height: 50px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background: #d6e7d2;
+    margin-top: 148px;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.content__accordion {
+    width: 450px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.content__text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    letter-spacing: 0.05em;
+    color: #717171;
+}
+
+.content__circle {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #aea1a1;
+    margin-right: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content__hidden {
+    display: none;
+    padding: 27px 50px 31px 20px;
+    box-sizing: border-box;
+}
+
+.content__accordion--active .content__hidden {
+    display: block;
+    width: 450px;
+    height: 244px;
+    background: #dce9d9;
+}
+
+.content__accordion--active .content__head {
+    background: #c1e698;
+    border: 1px solid #d6e7d2;
+    width: 450px;
+    height: 50px;
+    display: flex;
+    row-gap: 12px;
+}
+
+.content__accordion--active .content__circle {
+    transform: rotate(180deg);
+}
+
+.content__city {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 250%;
+    letter-spacing: 0.05em;
+    color: #499a18;
+    margin-top: 12px;
+}
+
+.content__hidden .content__city:hover {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 250%;
+    letter-spacing: 0.05em;
+    color: #717171;
+    cursor: pointer;
+    border-bottom: 1px solid grey;
+}

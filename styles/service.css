@@ -1,0 +1,85 @@
+.service {
+    background-color: #EDF2EC;
+}
+
+.service__content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service__heads {
+    margin-top: 40px;
+    display: flex;
+    gap: 141px;
+    flex-wrap: wrap;
+}
+
+.service__description {
+   font-family: var(--second-family);
+    font-weight: 400;
+    color: #499a18;
+    text-align: left;
+    margin: 0;
+    font-size: 40px;
+    width: 306px;
+    height: 94px;
+}
+
+.service__btns {
+    display: flex;
+    gap: 39px;
+    align-self: center;
+    
+}
+
+.service__btn {
+    border: 1px solid #e06733;
+    border-radius: 5px;
+    width: 161px;
+    height: 50px;
+    background: none;
+    font-weight: 400;
+    font-size: 20px;
+    color: #e06733;
+}
+
+.service__icon {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 55px;
+    justify-content: space-between;
+    margin: 90px 0 121px;
+}
+
+.alldescription {
+    border: 1px solid #e3e1d5;
+    border-radius: 0 0 20px 20px;
+    width: 330px;
+    height: 100px;
+    box-sizing: border-box;
+    margin-top: -4px;  /*Узнать почему не сработало позиционирование*/
+}
+
+.allititle {
+   font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    color: #e06733; 
+    text-align: center;
+    margin-top: 10px;
+}
+
+.alltext {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    color: #717171;
+    text-align: center;
+}
+.allicon {
+    width: 330px;
+    height: 350px;  
+    box-sizing: border-box;
+}

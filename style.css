@@ -1,0 +1,47 @@
+@import url('styles/header.css');
+@import url('styles/welcome.css');
+@import url('styles/about.css');
+@import url('styles/service.css');
+@import url('styles/price.css');
+@import url('styles/contact.css');
+@import url('styles/footer.css');
+
+:root {
+  --font-family: "Inter", sans-serif;
+  --second-family: "Inika", sans-serif;
+  --third-family: "Roboto", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #010201;
+}
+
+.conteiner {
+    margin: 0 auto;
+    max-width: 1220px;
+    height: 100%;
+}   
+
+.prt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}

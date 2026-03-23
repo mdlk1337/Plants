@@ -1,18 +1,21 @@
-.header {
-    height: 134px;
-    background: #edf2ec;
-}
-
-.header__logo {
-    width: 79px;
-    height: 21px;  
-}
-
 .header__conteiner {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+.header {
+    background: #edf2ec;
+    height: 134px;
+}
+
+.header__logo {
+    width: 79px;
+    height: 21px;  
+    display: flex;
+    align-items: center;
+}
+
 
 .header__nav {
     width: 452px;
@@ -31,4 +34,13 @@
 
 .header__links li a:hover {
     color: #e06733;
+}
+
+
+@media screen and (max-width:666px) {
+    .header__links {
+        width: 0;
+        height: 0;
+        overflow: hidden;
+    }
 }

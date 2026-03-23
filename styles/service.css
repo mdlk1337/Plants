@@ -29,7 +29,7 @@
     display: flex;
     gap: 39px;
     align-self: center;
-    
+    flex-wrap: wrap;
 }
 
 .service__btn {
@@ -57,7 +57,7 @@
     width: 330px;
     height: 100px;
     box-sizing: border-box;
-    margin-top: -4px;  /*Узнать почему не сработало позиционирование*/
+    margin-top: -4px;  
 }
 
 .allititle {
@@ -68,6 +68,7 @@
     color: #e06733; 
     text-align: center;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .alltext {
@@ -82,4 +83,42 @@
     width: 330px;
     height: 350px;  
     box-sizing: border-box;
+}
+
+@media screen  and (max-width:1186px) {
+    
+.service__heads {
+    flex-direction: column;
+    gap: 40px;
+}
+
+.allicon {
+    width: 280px;
+    height: 350px;
+}
+.alldescription {
+    width: 280px;
+    height: 100px;
+}
+}
+
+@media screen and (max-width:988px) {
+    
+.service__icon {
+    justify-content: space-around;
+    
+}
+}
+
+@media screen and (max-width:430px) {
+    
+.service__btn {
+    width: 121px;
+    height: 35px;
+    font-size: 15px;
+}
+
+.service__btns {
+    gap: 10px;
+}
 }

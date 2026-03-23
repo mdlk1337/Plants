@@ -1,7 +1,9 @@
 .price__conteiner {
     padding-top: 38px;
     padding-bottom: 115px;
-    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .prices__head {
@@ -31,9 +33,6 @@
     height: 50px;
     border-radius: 20px;
     background: #edf2ec;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 16px 40px;
     box-sizing: border-box;
     cursor: pointer;
@@ -111,13 +110,11 @@
 .prices__btn--active {
     border-radius: 20px;
     width: 250px;
-    height: 174px;
+    height: 160px;
     background: #d6e7d2;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     cursor: pointer;
-    position: relative;
 }
 
 .prices__btn--active .prices__accordion {
@@ -125,22 +122,18 @@
 }
 
 .prices__btn--active .prices__circle {
+    transform: rotate(180deg);
     background: #aea1a1;
 }
 
 .prices__btn--active .prices__arrow {
     stroke: #fff;
-    transform: rotate(180deg);
 }
 
 
 .price__discription {
     width: 452px;
     height: 191px;
-    position: absolute;
-    right: 0;
-    top: 0;
-    margin-top: 40px;
     font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 40px;
@@ -175,4 +168,78 @@
     width: 151px;
     height: 174px;
     margin-top: 39px;
+}
+
+.prices__btn--all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+@media screen  and (max-width:923px) {
+    
+.price__discription {
+    width: 296px;
+    height: 357px;
+    font-size: 25px;
+    margin-top: 109px;
+}
+}
+
+@media screen  and (max-width:739px) {
+
+.price__conteiner {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.prices__head {
+    text-align: center;
+}
+
+.price__discription {
+    margin-top: 19px;
+    align-items: center;
+}
+}
+
+@media screen and (max-width:400px) {
+    
+.prices__wrapper {
+    width: 224px;
+    height: 235px;
+}
+
+.prices__btn {
+    width: 180px;
+    height: 49px;
+}
+
+.prices__text {
+    font-size: 15px;
+}
+
+.prices__btn--active {
+    width: 180px;
+    height: 49px;
+}
+
+.price__discription {
+    font-size: 20px;
+    text-align: center;
+    justify-content: flex-start;
+    height: 30px;
+}
+
+.price_button--orange {
+    width: 121px;
+    height: 35px;
+    margin-top: 14px;
+}
+
+.prices__img {
+    display: none;
+}
 }

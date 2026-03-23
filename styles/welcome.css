@@ -1,7 +1,5 @@
 .welcome {
-    display: flex;
-    justify-content: center;
-    background: #edf2ec;
+    background-color: #EDF2EC;
 }
 
 .welcome__conteiner {
@@ -50,4 +48,35 @@
 .welcome__button:hover {
     color: white;
     background: #e06733;
+}
+
+@media screen  and (max-width:1078px) {
+
+.welcome__leafs {
+    width: 280px;
+    height: 254px;
+    order: 1;
+}
+}
+
+@media screen and (max-width:768px) {
+    
+.welcome__text {
+    font-size: 16px;
+}
+
+.welcome__title {
+    font-size: 35px;
+}
+} 
+
+@media screen and (max-width:626px) {
+    
+.welcome__title {
+    font-size: 25px;
+}
+
+.welcome__leafs {
+    display: none;
+}
 }
